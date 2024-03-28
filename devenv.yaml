@@ -1,14 +1,9 @@
 inputs:
+  pre-commit-hooks:
+    url: github:sestrella/pre-commit-hooks.nix/terraform_and_opentofu_format
   nixpkgs:
     url: github:cachix/devenv-nixpkgs/rolling
+  nixpkgs-terraform:
+    url: github:stackbuilders/nixpkgs-terraform
 
-# If you're using non-OSS software, you can set allowUnfree to true.
-# allowUnfree: true
-
-# If you're willing to use a package that's vulnerable
-# permittedInsecurePackages:
-#  - "openssl-1.1.1w"
-
-# If you have more than one devenv you can merge them
-#imports:
-# - ./backend
+impure: true
