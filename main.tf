@@ -1,4 +1,4 @@
 locals {
   foo     = 1
-  bar = 2
+  bar   = 2
 }
