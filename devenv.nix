@@ -1,8 +1,8 @@
-{ pkgs, lib, config, inputs, ... }:
+{ config, ... }:
 
 {
   languages.terraform.enable = true;
-  languages.terraform.version = "1.7.5";
+  languages.terraform.version = "1.10";
 
   # languages.opentofu.enable = true;
 
