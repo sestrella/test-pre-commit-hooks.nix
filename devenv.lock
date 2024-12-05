@@ -216,10 +216,10 @@
         "nixpkgs-stable": "nixpkgs-stable"
       },
       "locked": {
-        "lastModified": 1733371187,
+        "lastModified": 1733373893,
         "owner": "sestrella",
         "repo": "pre-commit-hooks.nix",
-        "rev": "4696ed558e7690be0d25cd766776d644ade84427",
+        "rev": "35b95bc31c51d53ce974c86f66e4dd51782414d2",
         "type": "github"
       },
       "original": {
