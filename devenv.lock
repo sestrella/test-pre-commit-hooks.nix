@@ -3,10 +3,10 @@
     "config": {
       "locked": {
         "dir": "templates/config",
-        "lastModified": 1732844581,
+        "lastModified": 1735874994,
         "owner": "stackbuilders",
         "repo": "nixpkgs-terraform",
-        "rev": "b4db1b59d8f62cd37b6f9540e368d0e2627c4a2d",
+        "rev": "6a084f0760bbc81cd9838b0f91a9d6fa0949a6e7",
         "type": "github"
       },
       "original": {
@@ -19,10 +19,10 @@
     "devenv": {
       "locked": {
         "dir": "src/modules",
-        "lastModified": 1733323168,
+        "lastModified": 1735883199,
         "owner": "cachix",
         "repo": "devenv",
-        "rev": "efa9010b8b1cfd5dd3c7ed1e172a470c3b84a064",
+        "rev": "d67d04ae2dd3bc3723e615003034ba752e8db8c3",
         "type": "github"
       },
       "original": {
@@ -52,10 +52,10 @@
         "nixpkgs-lib": "nixpkgs-lib"
       },
       "locked": {
-        "lastModified": 1733312601,
+        "lastModified": 1735774679,
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "205b12d8b7cd4802fbcb8e8ef6a0f1408781a4f9",
+        "rev": "f2f7418ce0ab4a5309a4596161d154cfc877af66",
         "type": "github"
       },
       "original": {
@@ -64,10 +64,30 @@
         "type": "github"
       }
     },
+    "git-hooks": {
+      "inputs": {
+        "flake-compat": "flake-compat",
+        "gitignore": "gitignore",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1736048582,
+        "owner": "sestrella",
+        "repo": "git-hooks.nix",
+        "rev": "b1fa50729d92e35a0cbfdf8c949cdaf0b5bf3847",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sestrella",
+        "ref": "terraform_and_opentofu_format",
+        "repo": "git-hooks.nix",
+        "type": "github"
+      }
+    },
     "gitignore": {
       "inputs": {
         "nixpkgs": [
-          "pre-commit-hooks",
+          "git-hooks",
           "nixpkgs"
         ]
       },
@@ -86,16 +106,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1716977621,
-        "owner": "cachix",
-        "repo": "devenv-nixpkgs",
-        "rev": "4267e705586473d3e5c8d50299e71503f16a6fb6",
+        "lastModified": 1735915915,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "a27871180d30ebee8aa6b11bf7fef8a52f024733",
         "type": "github"
       },
       "original": {
-        "owner": "cachix",
-        "ref": "rolling",
-        "repo": "devenv-nixpkgs",
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
         "type": "github"
       }
     },
@@ -146,29 +166,14 @@
     },
     "nixpkgs-lib": {
       "locked": {
-        "lastModified": 1733301674,
-        "narHash": "sha256-1qRH7uAUsyQI7R1Uwl4T+XvdNv778H0Nb5njNrqvylY=",
+        "lastModified": 1736049378,
+        "narHash": "sha256-CewEm1o2eVAnoqb6Ml+Qi9Gg/EfNAxbRx1lANGVyoLI=",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/5487e69da40cbd611ab2cadee0b4637225f7cfae.tar.gz"
+        "url": "https://github.com/NixOS/nixpkgs/archive/e9b51731911566bbf7e4895475a87fe06961de0b.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/5487e69da40cbd611ab2cadee0b4637225f7cfae.tar.gz"
-      }
-    },
-    "nixpkgs-stable": {
-      "locked": {
-        "lastModified": 1733220138,
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "bcb68885668cccec12276bbb379f8f2557aa06ce",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixos-24.05",
-        "repo": "nixpkgs",
-        "type": "github"
+        "url": "https://github.com/NixOS/nixpkgs/archive/e9b51731911566bbf7e4895475a87fe06961de0b.tar.gz"
       }
     },
     "nixpkgs-terraform": {
@@ -181,10 +186,10 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1732844581,
+        "lastModified": 1735874994,
         "owner": "stackbuilders",
         "repo": "nixpkgs-terraform",
-        "rev": "b4db1b59d8f62cd37b6f9540e368d0e2627c4a2d",
+        "rev": "6a084f0760bbc81cd9838b0f91a9d6fa0949a6e7",
         "type": "github"
       },
       "original": {
@@ -195,46 +200,28 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1733229606,
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "566e53c2ad750c84f6d31f9ccb9d00f823165550",
+        "lastModified": 1733477122,
+        "owner": "cachix",
+        "repo": "devenv-nixpkgs",
+        "rev": "7bd9e84d0452f6d2e63b6e6da29fe73fac951857",
         "type": "github"
       },
       "original": {
-        "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "pre-commit-hooks": {
-      "inputs": {
-        "flake-compat": "flake-compat",
-        "gitignore": "gitignore",
-        "nixpkgs": "nixpkgs_2",
-        "nixpkgs-stable": "nixpkgs-stable"
-      },
-      "locked": {
-        "lastModified": 1733373893,
-        "owner": "sestrella",
-        "repo": "pre-commit-hooks.nix",
-        "rev": "35b95bc31c51d53ce974c86f66e4dd51782414d2",
-        "type": "github"
-      },
-      "original": {
-        "owner": "sestrella",
-        "ref": "terraform_and_opentofu_format",
-        "repo": "pre-commit-hooks.nix",
+        "owner": "cachix",
+        "ref": "rolling",
+        "repo": "devenv-nixpkgs",
         "type": "github"
       }
     },
     "root": {
       "inputs": {
         "devenv": "devenv",
-        "nixpkgs": "nixpkgs",
+        "git-hooks": "git-hooks",
+        "nixpkgs": "nixpkgs_2",
         "nixpkgs-terraform": "nixpkgs-terraform",
-        "pre-commit-hooks": "pre-commit-hooks"
+        "pre-commit-hooks": [
+          "git-hooks"
+        ]
       }
     },
     "systems": {

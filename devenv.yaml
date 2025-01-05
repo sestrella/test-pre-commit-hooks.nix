@@ -1,6 +1,6 @@
 inputs:
-  pre-commit-hooks:
-    url: github:sestrella/pre-commit-hooks.nix/terraform_and_opentofu_format
+  git-hooks:
+    url: github:sestrella/git-hooks.nix/terraform_and_opentofu_format
   nixpkgs:
     url: github:cachix/devenv-nixpkgs/rolling
   nixpkgs-terraform:
