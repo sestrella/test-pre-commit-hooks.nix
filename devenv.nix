@@ -7,6 +7,5 @@
   # languages.opentofu.enable = true;
 
   pre-commit.hooks.terraform-format.enable = true;
-  pre-commit.hooks.terraform-format.package = config.languages.terraform.package;
-  # pre-commit.hooks.terraform-format.package = config.languages.opentofu.package;
+  # pre-commit.hooks.terraform-format.package = config.languages.terraform.package;
 }
